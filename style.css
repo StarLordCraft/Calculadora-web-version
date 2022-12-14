@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.calc, #nome, #display,
+#teclas, #teclas button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: -240px;
+}
+
+.calcExibir{
+    left: 0 !important;
+}
+
+.calc{
+    flex-direction: column;
+
+    width: 240px;
+    border-collapse: collapse;
+
+    border: 3px solid black;
+
+    box-shadow: 1px 1px 10px black;
+    
+    background-color: #E5E5E5;
+}
+
+#nome{
+    margin-bottom: 5px;
+}
+
+#display{
+    width: 100%;
+    min-height: 50px;
+    margin: 10px;
+
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    
+    background-color: #fff;
+
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+#display > p{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 11px;
+}
+
+#teclas{
+    width: 220px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 10px;
+}
+
+.headerOp{
+    background-color: #E5E5E5 !important;
+    
+    border: 1px solid rgb(153, 133, 133) !important;
+}
+
+.headerOp:hover{
+    background-color: #fff0f0 !important;
+}
+
+#teclas button{
+    background-color: #aaa;
+
+    border: 3px solid #888;
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+
+    margin: 1px;
+}
+
+.num:hover{
+    border-color:rgb(78, 73, 73) !important;
+    
+    background-color: rgb(190, 184, 184) !important;
+}
+
+.teclaEspecial{
+    background-color: #f44 !important;
+    
+    border-color: #800 !important;
+}
+
+#tigual{
+    background-color: #f44 !important;
+    
+    border-color: #800 !important;
+}
+
+#tigual:hover{
+    background-color: rgb(201, 44, 44) !important;
+
+    border-color: rgb(95, 7, 7) !important;
+}
+
+.teclaEspecial:hover{
+    background-color: rgb(201, 44, 44) !important;
+
+    border-color: rgb(95, 7, 7) !important;
+}
+
+.aba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 50px;
+    
+    background-color: rgba(128, 128, 128, 0.5);
+
+    border-radius: 0 8px 8px 0;
+
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 900;
+}

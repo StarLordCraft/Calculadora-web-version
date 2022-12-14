@@ -1,0 +1,1 @@
+Using my knoladge about JavaScript, i know i used a "cheat" in this code (eval function) but it was the propose to be simple, maybe i would rewrite this in the most correct way.
