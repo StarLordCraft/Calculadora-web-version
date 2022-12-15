@@ -5,5 +5,5 @@ I alredy made a calculator with cpp, but yesterday, i decided to create this in 
 # Learnings:
 
 -JavaScript functions
--JacaScript events
+-JavaScript events
 -HTML, CSS
